@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.unittest.simpletest.EmployeeServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.333 sec <<< FAILURE!
+testAddEmployee(com.unittest.simpletest.EmployeeServiceImplTest)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: expected [5] but found [4]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at com.unittest.simpletest.EmployeeServiceImplTest.testAddEmployee(EmployeeServiceImplTest.java:18)
+
